@@ -41,7 +41,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell value="Б" status="absent"/>
         <Cell value="Б" status="absent"/>
         <Cell value="А" />
-        <Cell value="Т" status="present"/>
+        <Cell value="Т" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
         Буква Б нет в слове ни в одном месте.
