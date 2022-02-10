@@ -16,10 +16,10 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
 
       <div className="flex justify-center mb-1 mt-4">
         <Cell value="А" status="correct" />
-        <Cell value="Б" />
-        <Cell value="Б" />
-        <Cell value="А" status="correct"/>
-        <Cell value="Т" />
+        <Cell value="К" />
+        <Cell value="У" />
+        <Cell value="Л" />
+        <Cell value="А" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
         Буква А в слове и на правильном месте.
@@ -38,13 +38,13 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
 
       <div className="flex justify-center mb-1 mt-4">
         <Cell value="А" />
-        <Cell value="Б" status="absent"/>
-        <Cell value="Б" status="absent"/>
+        <Cell value="М" status="absent"/>
+        <Cell value="Б" />
         <Cell value="А" />
-        <Cell value="Т" />
+        <Cell value="Р" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        Буква Б нет в слове ни в одном месте.
+        Буква М нет в слове ни в одном месте.
       </p>
     </BaseModal>
   )
