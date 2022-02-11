@@ -7,7 +7,7 @@ export const NOT_ENOUGH_LETTERS_MESSAGE = 'Недостаточно букв'
 export const WORD_NOT_FOUND_MESSAGE = 'Слово не найдено'
 export const CORRECT_WORD_MESSAGE = (solution: string) =>
   `Слово было ${solution}`
-export const ENTER_TEXT = 'ВХОДИТЬ'
+export const ENTER_TEXT = 'ВВОД'
 export const DELETE_TEXT = 'УДАЛИТЬ'
 export const STATISTICS_TITLE = 'Статистика'
 export const GUESS_DISTRIBUTION_TEXT = 'Угадай распределение'
