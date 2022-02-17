@@ -16,6 +16,13 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
         >
           Wordle
         </a>{' '}
+      Если вы хотите посетитеподдерживать меня посетите {''}
+        <a
+          href="https://www.patreon.com/techpluscraft"
+          className="underline font-bold"
+        >
+          Patreon
+        </a>
       </p>
     </BaseModal>
   )
